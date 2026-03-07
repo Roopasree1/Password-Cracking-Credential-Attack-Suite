@@ -1,0 +1,30 @@
+Password Security Audit Report
+==============================
+
+Target System: Demo Linux Lab
+
+Tools Used:
+- John the Ripper
+- Hashcat
+- Custom Dictionary Generator
+- Brute Force Simulator
+
+Findings:
+---------
+Weak Password Found: password123
+Hash Type: MD5-Crypt
+Cracked Using: Dictionary Attack
+
+Risk Level: HIGH
+
+Recommendations:
+----------------
+1. Use strong passwords (12+ characters)
+2. Enable multi-factor authentication
+3. Avoid dictionary-based passwords
+4. Implement password complexity policies
+
+Conclusion:
+-----------
+The tested credentials were vulnerable to dictionary and brute force attacks.
+Stronger password policies are recommended.
